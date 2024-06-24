@@ -1,3 +1,11 @@
+/* colori
+    blu:#0084FD
+    celeste:#B5DDFF
+    viola:#9792E4
+    arancione:#FDC15F
+    nero:#333333
+*/
+
 /* RESET */
 
 *{
@@ -7,15 +15,80 @@
 }
 
 html{
-    font-family: "Roboto", sans-serif;
+    font-family: "PT Sans", sans-serif;
 }
 
-/* colori
-    blu:#0084FD
-    celeste:#B5DDFF
-    viola:#9792E4
-    arancione:#FDC15F
-    nero:#333333
+img{
+    max-width:100%;
+}
+
+/* GENERAL */
+.container{
+    max-width:1000px;
+    margin:0 auto;
+}
+
+a.btn{
+    background-color:white;
+    color:black;
+    border-radius:13px;
+    margin-right:5px;
+}
+
+/* HEADER */
+
+header{
+    max-width:100%;
+    background-color:#0084FD;
+}
+.hdr-container{
+    display:flex;
+    justify-content:space-between;
+    color:white;
+    align-items:center;
+
+}
+
+.hdr-container > nav ul{
+    list-style: none;
+}
+.hdr-container > nav ul li{
+    display:inline-block;
+}
+nav a{
+    color:white;
+    padding: 5px 10px;
+    text-decoration:none;
+}
+
+.logo{
+    padding: 5px;
+}
+
+.desktop-menu{
+    display:none;
+}
+
+/* MAIN */
 
 
-*/
+/* FOOTER */
+
+
+/* RESPONSIVE */
+
+@media screen and (min-width:576px){
+   
+
+}
+
+@media screen and (min-width:992px){
+
+    .mobile-menu{
+        display:none;
+    }
+    .desktop-menu{
+        display:block;
+    }
+    
+}
