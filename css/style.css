@@ -36,8 +36,11 @@ img{
 }
 
 section{
-
     padding:40px 0;
+}
+
+.bg-lightblue{
+    background-color:#B5DDFF;
 }
 
 .blue{
@@ -114,7 +117,6 @@ a{
 }
 
 .card{
-    background-color:#B5DDFF;
     padding:20px;
     border-radius:20px;
     margin:0 10px;
@@ -166,9 +168,7 @@ h3{
 /* fine sezione info  */
 /* sezione plannings */
 
-.planning{
 
-}
 
 .planning img{
     margin-top:100px;
@@ -193,7 +193,7 @@ h3{
 
 .planning .card {
     background-color:white;
-    margin-top: 50px;;
+    margin:50px 0;
     text-align:center;
 }
 
@@ -207,7 +207,42 @@ h3{
 }
 /* fine sezione plannings */
 
+/* sezione testimonials */
+.title{
+    text-align:center;
+}
+.title > *{
+    margin-bottom:20px;
+ }
 
+.title h2{
+    font-size:2.5rem;
+}
+
+.profile-pic{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    object-fit:cover;
+}
+
+.testimonials .card{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+}
+
+.left-card{
+    width:100%;
+    text-align:center;
+}
+
+.right-card{
+    width:100%;
+    text-align:center;
+    
+}
+/* fine sezione testimonials */
 /* FOOTER */
 
 
@@ -221,7 +256,17 @@ h3{
     .tablet-col-2-3{
         width:calc((100% / 3) * 2);
     }
-   
+    
+    .left-card{
+        max-width:200px;
+        text-align:left;
+    }
+    
+    .right-card{
+        width:calc(100% - 220px);
+        margin-left:20px;
+        text-align:left;
+    }
 
 }
 
@@ -238,6 +283,10 @@ h3{
         width:calc((100% / 2) - 40px);
         display:inline-block;
     }
+    /* planning */
+    .planning .container{
+        padding:0 100px;
+    }
 
     .desktop-col-1-2{
         width:50%;
@@ -245,12 +294,16 @@ h3{
         flex-wrap:wrap;
         align-items:flex-end;
     }
-
-
+    .planning .card{
+        margin-left:20px;
+        margin-bottom:0;
+    }
     .planning .card img{
         margin-top:0;
-        width:50%;;
-
+        max-width:50%;;
     }
+    /* fine planning */
+    /* testimonials */
     
+    /* fine testimonials */
 }
