@@ -51,7 +51,7 @@ section{
     background-color:#0084FD
 }
 
-.gray{
+.grey{
     color:#5B6F7F
 }
 .bg-purple{
@@ -101,6 +101,9 @@ a{
     display:none;
 }
 
+.btn{
+    padding:4px 30px;
+}
 
 
 
@@ -151,9 +154,10 @@ h3{
     left:0;
 }
 
-.btn{
-    padding:4px 30px;
-    color:black;
+
+
+.info .btn.bg-blue.white{
+    color:white;
 }
 
 .tablet-col-1-3 .card{
@@ -269,9 +273,39 @@ h3{
     font-weight:900;
     color:white;
 }
-
-
 /* fine sezione benefits */
+
+/* sezione about us */
+.abt-us .col,
+.abt-us .col{
+    padding:30px;
+}
+.abt-us .col h2{
+    font-size:3.5rem;
+}
+.abt-us .col p{
+    margin-bottom:20px;
+    line-height:2rem;
+    font-size:1.2rem;
+}
+
+#profile-abt-us{
+    position:relative;
+}
+
+#quote{
+    position:absolute;
+    top:0;
+    right:0;
+}
+
+.abt-us p.purple{
+    font-size:1.6rem;
+    font-weight:700;
+}
+
+
+/* sezione about us */
 /* FOOTER */
 
 
@@ -303,6 +337,16 @@ h3{
     }
 
     /* fine sezione benefits */
+    /* sezione about us */
+    
+    .left-col{
+        width:calc(60% - 20px);
+        margin-right:20px;
+    }
+    .right-col{
+        width:40%;;
+        align-items:flex-end;
+    }
 }
 
 @media screen and (min-width:992px){
@@ -340,10 +384,11 @@ h3{
     /* fine planning */
 
         /* sezione benefits */
-        .desktop-col-1-3{
-            width:calc(100% / 3)
-        }
+
+    .desktop-col-1-3{
+        width:calc(100% / 3)
+    }
     
-        /* fine sezione benefits */
+    /* fine sezione benefits */
 
 }
