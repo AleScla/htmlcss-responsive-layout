@@ -47,6 +47,10 @@ section{
     background-color:#0084FD
 }
 
+.gray{
+    color:#5B6F7F
+}
+
 /* HEADER */
 
 header{
@@ -105,12 +109,21 @@ a{
     border-radius:20px;
     margin:0 10px;
     width:100%;
+    
 }
+
 
 .card > *{
-    line-height:2rem;
-
+    line-height:2rem;    
 }
+
+h3{
+    margin-bottom:20px;
+}
+
+
+
+/* Sezione info */
 
 .inner-card{
     position:relative;
@@ -129,7 +142,19 @@ a{
     margin-top:15px;
 }
 
+.tablet-col-1-3 .card{
+    text-align:center;
+}
+.card > i{
+    margin-bottom:20px;
 
+}
+
+.info .card{
+    font-weight:900
+}
+
+/* fine sezione info  */
 
 
 
